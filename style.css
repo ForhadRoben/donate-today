@@ -25,7 +25,7 @@ span {
 }
 
 section {
-    height: 500px;
+    height: 600px;
     padding-bottom: 150px;
 }
 
@@ -120,14 +120,139 @@ section {
 
 }
 
+.update {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.text-update {
+    position: relative;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+.mail {
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 20%;
+    border-radius: 0px;
+    background-color: rgb(231, 241, 241);
+    padding: 30px;
+    margin: 0;
+
+}
+
+.button {
+    position: relative;
+    left: 0;
+    text-align: center;
+    width: 20%;
+    border-radius: 0;
+    background-color: rgb(238, 17, 153);
+    padding: 30px;
+    margin: 0;
+    color: white;
+
+
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+.half-width img {
+    width: 100%;
+}
+
 .anchor-button1 {
     position: relative;
     top: 200px;
     left: 45%;
     text-decoration: none;
     background: linear-gradient(rgb(197, 83, 38), rgb(243, 22, 6));
-    padding: 20px;
+    padding: 25px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+.anchor-button2 {
+    position: relative;
+    top: 150px;
+    left: 45%;
+    text-decoration: none;
+    background: linear-gradient(rgb(197, 83, 38), rgb(243, 22, 6));
+    padding: 25px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.donate-plan {
+    font-size: 40px;
+    text-align: center;
+}
+
+.donate-plan-text {
+    position: relative;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+.parent {
+    display: flex;
+}
+
+.parent div {
+    width: 270px;
+    text-align: justify;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 25px;
+    box-shadow: 2px 2px 4px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.family {
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+#food {
+    background-color: rgb(114, 96, 131);
+}
+
+#shelter {
+    background-color: blanchedalmond;
+}
+
+#education {
+    background-color: rgb(135, 177, 177);
+}
+
+.footer {
+    text-align: center;
+    color: rgb(252, 7, 7);
+
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+.color {
+    background-color: black;
 }
